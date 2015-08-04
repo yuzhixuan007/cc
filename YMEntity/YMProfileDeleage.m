@@ -15,7 +15,7 @@
 
 @implementation YMProfileDeleage
 
--(void)getData
+-(void)getData 
 {
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
     AFXMLParserResponseSerializer * responseSer = [AFXMLParserResponseSerializer new];
