@@ -15,4 +15,11 @@
     return @"http://ymoffice.testweb.iwanshang.cn/";
 }
 
++(NSData*) getDataFromString:(NSString*) str
+{
+    
+  NSData* xmlData = [str dataUsingEncoding:NSUTF8StringEncoding];
+    return  xmlData;
+}
+
 @end

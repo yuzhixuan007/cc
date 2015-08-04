@@ -12,6 +12,6 @@
 
 @interface YMProfileDeleage : NSObject
 
--(void) getData;
+-(void)getData :(void (^)(NSMutableArray *arr))compete;
 
 @end 

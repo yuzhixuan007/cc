@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		87F3DB6E3529F224E52DD096 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7257C8486F662482E0D6C42 /* libPods.a */; };
+		FE95AD3D1B70E095005E0029 /* YMProfileEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = FE95AD3C1B70E095005E0029 /* YMProfileEntity.m */; };
+		FE95AD401B70F310005E0029 /* ProfileController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE95AD3F1B70F310005E0029 /* ProfileController.m */; };
+		FE95AD441B71000E005E0029 /* YMLoginDeleage.m in Sources */ = {isa = PBXBuildFile; fileRef = FE95AD431B71000E005E0029 /* YMLoginDeleage.m */; };
 		FEB332971B6D18EA0072B767 /* YMCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB332961B6D18EA0072B767 /* YMCommon.m */; };
 		FEC4B7FA1B65351100272A5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC4B7F91B65351100272A5A /* main.m */; };
 		FEC4B7FD1B65351100272A5A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC4B7FC1B65351100272A5A /* AppDelegate.m */; };
@@ -36,6 +39,13 @@
 		39B2BDBE5EE1A065F089275A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		4CD4376F4C0743D65DA3709A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		B7257C8486F662482E0D6C42 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE95AD3B1B70DEE6005E0029 /* YMProfileEntity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = YMProfileEntity.h; path = YMEntity/YMProfileEntity.h; sourceTree = "<group>"; };
+		FE95AD3C1B70E095005E0029 /* YMProfileEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YMProfileEntity.m; path = YMEntity/YMProfileEntity.m; sourceTree = "<group>"; };
+		FE95AD3E1B70F310005E0029 /* ProfileController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileController.h; sourceTree = "<group>"; };
+		FE95AD3F1B70F310005E0029 /* ProfileController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileController.m; sourceTree = "<group>"; };
+		FE95AD421B70FEE4005E0029 /* YMLoginDeleage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = YMLoginDeleage.h; path = YMEntity/YMLoginDeleage.h; sourceTree = "<group>"; };
+		FE95AD431B71000E005E0029 /* YMLoginDeleage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YMLoginDeleage.m; path = YMEntity/YMLoginDeleage.m; sourceTree = "<group>"; };
+		FE95AD451B7110E4005E0029 /* YMCustomerEntity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = YMCustomerEntity.h; path = YMEntity/YMCustomerEntity.h; sourceTree = "<group>"; };
 		FEB332961B6D18EA0072B767 /* YMCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMCommon.m; sourceTree = "<group>"; };
 		FEC4B7F41B65351100272A5A /* yiming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yiming.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEC4B7F81B65351100272A5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -99,6 +109,16 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		FE95AD3A1B70DEBC005E0029 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				FE95AD3B1B70DEE6005E0029 /* YMProfileEntity.h */,
+				FE95AD3C1B70E095005E0029 /* YMProfileEntity.m */,
+				FE95AD451B7110E4005E0029 /* YMCustomerEntity.h */,
+			);
+			name = Entity;
+			sourceTree = "<group>";
+		};
 		FEB332951B6D18C50072B767 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +133,7 @@
 		FEC4B7EB1B65351100272A5A = {
 			isa = PBXGroup;
 			children = (
+				FE95AD3A1B70DEBC005E0029 /* Entity */,
 				FEE461CC1B6FA03C00ACF9FC /* Delegate */,
 				FEB332951B6D18C50072B767 /* Tools */,
 				FEC4B7F61B65351100272A5A /* yiming */,
@@ -143,6 +164,8 @@
 				FEC4B8041B65351100272A5A /* Images.xcassets */,
 				FEC4B8061B65351100272A5A /* LaunchScreen.xib */,
 				FEC4B7F71B65351100272A5A /* Supporting Files */,
+				FE95AD3E1B70F310005E0029 /* ProfileController.h */,
+				FE95AD3F1B70F310005E0029 /* ProfileController.m */,
 			);
 			path = yiming;
 			sourceTree = "<group>";
@@ -178,6 +201,8 @@
 			children = (
 				FEE461D31B6FA66300ACF9FC /* YMProfileDeleage.m */,
 				FEE461D61B6FA8A300ACF9FC /* YMProfileDeleage.h */,
+				FE95AD421B70FEE4005E0029 /* YMLoginDeleage.h */,
+				FE95AD431B71000E005E0029 /* YMLoginDeleage.m */,
 			);
 			name = Delegate;
 			sourceTree = "<group>";
@@ -318,9 +343,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEB332971B6D18EA0072B767 /* YMCommon.m in Sources */,
+				FE95AD441B71000E005E0029 /* YMLoginDeleage.m in Sources */,
 				FEE462041B6FAE1100ACF9FC /* GmailLikeLoadingView.m in Sources */,
 				FEC4B8001B65351100272A5A /* ViewController.m in Sources */,
+				FE95AD401B70F310005E0029 /* ProfileController.m in Sources */,
 				FEC4B7FD1B65351100272A5A /* AppDelegate.m in Sources */,
+				FE95AD3D1B70E095005E0029 /* YMProfileEntity.m in Sources */,
 				FEE461D41B6FA66300ACF9FC /* YMProfileDeleage.m in Sources */,
 				FEC4B7FA1B65351100272A5A /* main.m in Sources */,
 			);
@@ -400,7 +428,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -438,7 +466,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";

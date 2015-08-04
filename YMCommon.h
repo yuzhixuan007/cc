@@ -13,5 +13,6 @@
 @interface YMCommon : NSObject
 
 +(NSString*) getServer;
++(NSData*) getDataFromString:(NSString*) str;
 
 @end
