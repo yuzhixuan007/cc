@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7EF307D7-97BB-4E8F-A490-32349B7717F7</string>
+	<key>IDESourceControlProjectName</key>
+	<string>yiming</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4F0AB1F6E81994D6B6F81FE2F57E73EB71CA3ED5</key>
+		<string>https://github.com/reflynet/YiMingGuiHua.git</string>
+		<key>CE7648A3D085E310715424B0133E95A7B7FA0B6F</key>
+		<string>https://github.com/yuzhixuan007/cc.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>yiming.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4F0AB1F6E81994D6B6F81FE2F57E73EB71CA3ED5</key>
+		<string>..yiming/</string>
+		<key>CE7648A3D085E310715424B0133E95A7B7FA0B6F</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/yuzhixuan007/cc.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CE7648A3D085E310715424B0133E95A7B7FA0B6F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4F0AB1F6E81994D6B6F81FE2F57E73EB71CA3ED5</string>
+			<key>IDESourceControlWCCName</key>
+			<string>yiming</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CE7648A3D085E310715424B0133E95A7B7FA0B6F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>yiming%202</string>
+		</dict>
+	</array>
+</dict>
+</plist>
