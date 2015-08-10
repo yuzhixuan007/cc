@@ -20,14 +20,20 @@ PODS:
   - AFNetworking/UIKit (2.5.4):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
+  - Diskcached (0.1.1)
   - GDataXML-HTML (1.2.0)
+  - ImageLoader (0.1.9):
+    - Diskcached (~> 0.1.1)
 
 DEPENDENCIES:
   - AFNetworking (~> 2.0)
   - GDataXML-HTML (~> 1.2.0)
+  - ImageLoader (~> 0.1.9)
 
 SPEC CHECKSUMS:
   AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  Diskcached: b4ff33215e66753ccb8067738904e52077e561ad
   GDataXML-HTML: dac3692417e9fc612f8e12d8baae3706fccedcc8
+  ImageLoader: b38a9eac01e5c9665e5a1c21b9466a7479e89cb8
 
 COCOAPODS: 0.38.2

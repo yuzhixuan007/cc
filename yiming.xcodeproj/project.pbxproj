@@ -7,10 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		408FF68D1B748D970010E1A3 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 408FF68C1B748D970010E1A3 /* Security.framework */; };
+		408FF6921B748EA10010E1A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 408FF6911B748EA10010E1A3 /* Foundation.framework */; };
+		408FF6941B748EA60010E1A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 408FF6931B748EA60010E1A3 /* UIKit.framework */; };
+		40B525B61B78712A00F24B4F /* ProjectContrller.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B525B51B78712A00F24B4F /* ProjectContrller.m */; };
+		40B525B91B78785500F24B4F /* YMUITapGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B525B81B78785500F24B4F /* YMUITapGestureRecognizer.m */; };
+		40B525BC1B787B9200F24B4F /* CityController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B525BB1B787B9200F24B4F /* CityController.m */; };
+		40B525BF1B78867700F24B4F /* YMCityEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B525BE1B78867700F24B4F /* YMCityEntity.m */; };
+		40B525C21B78870900F24B4F /* YMCityDeleage.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B525C11B78870900F24B4F /* YMCityDeleage.m */; };
+		40B525C61B78950F00F24B4F /* ContactController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B525C51B78950F00F24B4F /* ContactController.m */; };
 		87F3DB6E3529F224E52DD096 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7257C8486F662482E0D6C42 /* libPods.a */; };
+		FE6A2A821B7722ED00A8EE42 /* YMTypeListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6A2A811B7722ED00A8EE42 /* YMTypeListCell.m */; };
+		FE6A2A851B77331700A8EE42 /* EntityListController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6A2A841B77331700A8EE42 /* EntityListController.m */; };
+		FE6A2ACB1B7792DD00A8EE42 /* EGORefreshTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6A2ABB1B7792DD00A8EE42 /* EGORefreshTableHeaderView.m */; };
+		FE6A2ACC1B7792DD00A8EE42 /* LoadMoreTableFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6A2ABD1B7792DD00A8EE42 /* LoadMoreTableFooterView.m */; };
+		FE6A2ACD1B7792DD00A8EE42 /* MessageInterceptor.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6A2ABF1B7792DD00A8EE42 /* MessageInterceptor.m */; };
+		FE6A2ACE1B7792DD00A8EE42 /* PullTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6A2AC11B7792DD00A8EE42 /* PullTableView.m */; };
+		FE6A2ACF1B7792DD00A8EE42 /* blackArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = FE6A2AC31B7792DD00A8EE42 /* blackArrow.png */; };
+		FE6A2AD01B7792DD00A8EE42 /* blackArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE6A2AC41B7792DD00A8EE42 /* blackArrow@2x.png */; };
+		FE6A2AD11B7792DD00A8EE42 /* blueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = FE6A2AC51B7792DD00A8EE42 /* blueArrow.png */; };
+		FE6A2AD21B7792DD00A8EE42 /* blueArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE6A2AC61B7792DD00A8EE42 /* blueArrow@2x.png */; };
+		FE6A2AD31B7792DD00A8EE42 /* grayArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = FE6A2AC71B7792DD00A8EE42 /* grayArrow.png */; };
+		FE6A2AD41B7792DD00A8EE42 /* grayArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE6A2AC81B7792DD00A8EE42 /* grayArrow@2x.png */; };
+		FE6A2AD51B7792DD00A8EE42 /* whiteArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = FE6A2AC91B7792DD00A8EE42 /* whiteArrow.png */; };
+		FE6A2AD61B7792DD00A8EE42 /* whiteArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE6A2ACA1B7792DD00A8EE42 /* whiteArrow@2x.png */; };
+		FE6A2ADA1B77AB4B00A8EE42 /* YMChannelItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6A2AD91B77AB4B00A8EE42 /* YMChannelItem.m */; };
+		FE6A2ADD1B77ABC500A8EE42 /* YMItemDeleage.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6A2ADC1B77ABC500A8EE42 /* YMItemDeleage.m */; };
 		FE95AD3D1B70E095005E0029 /* YMProfileEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = FE95AD3C1B70E095005E0029 /* YMProfileEntity.m */; };
 		FE95AD401B70F310005E0029 /* ProfileController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE95AD3F1B70F310005E0029 /* ProfileController.m */; };
 		FE95AD441B71000E005E0029 /* YMLoginDeleage.m in Sources */ = {isa = PBXBuildFile; fileRef = FE95AD431B71000E005E0029 /* YMLoginDeleage.m */; };
+		FE95AD471B71121B005E0029 /* YMCustomerEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = FE95AD461B71121B005E0029 /* YMCustomerEntity.m */; };
 		FEB332971B6D18EA0072B767 /* YMCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB332961B6D18EA0072B767 /* YMCommon.m */; };
 		FEC4B7FA1B65351100272A5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC4B7F91B65351100272A5A /* main.m */; };
 		FEC4B7FD1B65351100272A5A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC4B7FC1B65351100272A5A /* AppDelegate.m */; };
@@ -23,6 +49,8 @@
 		FEE462011B6FAD9800ACF9FC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEE462001B6FAD9800ACF9FC /* CoreGraphics.framework */; };
 		FEE462041B6FAE1100ACF9FC /* GmailLikeLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = FEE462031B6FAE1100ACF9FC /* GmailLikeLoadingView.m */; };
 		FEE462061B6FAE7F00ACF9FC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEE462051B6FAE7F00ACF9FC /* QuartzCore.framework */; };
+		FEF03C6B1B76518D00111AF8 /* TypeListController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF03C6A1B76518D00111AF8 /* TypeListController.m */; };
+		FEF03C6D1B766FEA00111AF8 /* YMTypeListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEF03C6C1B766FEA00111AF8 /* YMTypeListCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +65,48 @@
 
 /* Begin PBXFileReference section */
 		39B2BDBE5EE1A065F089275A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		408FF68C1B748D970010E1A3 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		408FF6911B748EA10010E1A3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		408FF6931B748EA60010E1A3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		40B525B41B78712A00F24B4F /* ProjectContrller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectContrller.h; sourceTree = "<group>"; };
+		40B525B51B78712A00F24B4F /* ProjectContrller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectContrller.m; sourceTree = "<group>"; };
+		40B525B71B78785500F24B4F /* YMUITapGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMUITapGestureRecognizer.h; sourceTree = "<group>"; };
+		40B525B81B78785500F24B4F /* YMUITapGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMUITapGestureRecognizer.m; sourceTree = "<group>"; };
+		40B525BA1B787B9200F24B4F /* CityController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityController.h; sourceTree = "<group>"; };
+		40B525BB1B787B9200F24B4F /* CityController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityController.m; sourceTree = "<group>"; };
+		40B525BD1B78867700F24B4F /* YMCityEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMCityEntity.h; sourceTree = "<group>"; };
+		40B525BE1B78867700F24B4F /* YMCityEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMCityEntity.m; sourceTree = "<group>"; };
+		40B525C01B78870900F24B4F /* YMCityDeleage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMCityDeleage.h; sourceTree = "<group>"; };
+		40B525C11B78870900F24B4F /* YMCityDeleage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMCityDeleage.m; sourceTree = "<group>"; };
+		40B525C31B788D9900F24B4F /* PassValueDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassValueDelegate.h; sourceTree = "<group>"; };
+		40B525C41B78950F00F24B4F /* ContactController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactController.h; sourceTree = "<group>"; };
+		40B525C51B78950F00F24B4F /* ContactController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactController.m; sourceTree = "<group>"; };
 		4CD4376F4C0743D65DA3709A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		B7257C8486F662482E0D6C42 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE6A2A801B7722ED00A8EE42 /* YMTypeListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMTypeListCell.h; sourceTree = "<group>"; };
+		FE6A2A811B7722ED00A8EE42 /* YMTypeListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMTypeListCell.m; sourceTree = "<group>"; };
+		FE6A2A831B77331700A8EE42 /* EntityListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntityListController.h; sourceTree = "<group>"; };
+		FE6A2A841B77331700A8EE42 /* EntityListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntityListController.m; sourceTree = "<group>"; };
+		FE6A2ABA1B7792DD00A8EE42 /* EGORefreshTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGORefreshTableHeaderView.h; sourceTree = "<group>"; };
+		FE6A2ABB1B7792DD00A8EE42 /* EGORefreshTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGORefreshTableHeaderView.m; sourceTree = "<group>"; };
+		FE6A2ABC1B7792DD00A8EE42 /* LoadMoreTableFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadMoreTableFooterView.h; sourceTree = "<group>"; };
+		FE6A2ABD1B7792DD00A8EE42 /* LoadMoreTableFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadMoreTableFooterView.m; sourceTree = "<group>"; };
+		FE6A2ABE1B7792DD00A8EE42 /* MessageInterceptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageInterceptor.h; sourceTree = "<group>"; };
+		FE6A2ABF1B7792DD00A8EE42 /* MessageInterceptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageInterceptor.m; sourceTree = "<group>"; };
+		FE6A2AC01B7792DD00A8EE42 /* PullTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PullTableView.h; sourceTree = "<group>"; };
+		FE6A2AC11B7792DD00A8EE42 /* PullTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PullTableView.m; sourceTree = "<group>"; };
+		FE6A2AC31B7792DD00A8EE42 /* blackArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackArrow.png; sourceTree = "<group>"; };
+		FE6A2AC41B7792DD00A8EE42 /* blackArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackArrow@2x.png"; sourceTree = "<group>"; };
+		FE6A2AC51B7792DD00A8EE42 /* blueArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueArrow.png; sourceTree = "<group>"; };
+		FE6A2AC61B7792DD00A8EE42 /* blueArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blueArrow@2x.png"; sourceTree = "<group>"; };
+		FE6A2AC71B7792DD00A8EE42 /* grayArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grayArrow.png; sourceTree = "<group>"; };
+		FE6A2AC81B7792DD00A8EE42 /* grayArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grayArrow@2x.png"; sourceTree = "<group>"; };
+		FE6A2AC91B7792DD00A8EE42 /* whiteArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteArrow.png; sourceTree = "<group>"; };
+		FE6A2ACA1B7792DD00A8EE42 /* whiteArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whiteArrow@2x.png"; sourceTree = "<group>"; };
+		FE6A2AD81B77AA7E00A8EE42 /* YMChannelItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = YMChannelItem.h; path = YMEntity/YMChannelItem.h; sourceTree = "<group>"; };
+		FE6A2AD91B77AB4B00A8EE42 /* YMChannelItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YMChannelItem.m; path = YMEntity/YMChannelItem.m; sourceTree = "<group>"; };
+		FE6A2ADB1B77ABAE00A8EE42 /* YMItemDeleage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMItemDeleage.h; sourceTree = "<group>"; };
+		FE6A2ADC1B77ABC500A8EE42 /* YMItemDeleage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMItemDeleage.m; sourceTree = "<group>"; };
 		FE95AD3B1B70DEE6005E0029 /* YMProfileEntity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = YMProfileEntity.h; path = YMEntity/YMProfileEntity.h; sourceTree = "<group>"; };
 		FE95AD3C1B70E095005E0029 /* YMProfileEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YMProfileEntity.m; path = YMEntity/YMProfileEntity.m; sourceTree = "<group>"; };
 		FE95AD3E1B70F310005E0029 /* ProfileController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileController.h; sourceTree = "<group>"; };
@@ -46,6 +114,7 @@
 		FE95AD421B70FEE4005E0029 /* YMLoginDeleage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = YMLoginDeleage.h; path = YMEntity/YMLoginDeleage.h; sourceTree = "<group>"; };
 		FE95AD431B71000E005E0029 /* YMLoginDeleage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YMLoginDeleage.m; path = YMEntity/YMLoginDeleage.m; sourceTree = "<group>"; };
 		FE95AD451B7110E4005E0029 /* YMCustomerEntity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = YMCustomerEntity.h; path = YMEntity/YMCustomerEntity.h; sourceTree = "<group>"; };
+		FE95AD461B71121B005E0029 /* YMCustomerEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YMCustomerEntity.m; path = YMEntity/YMCustomerEntity.m; sourceTree = "<group>"; };
 		FEB332961B6D18EA0072B767 /* YMCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMCommon.m; sourceTree = "<group>"; };
 		FEC4B7F41B65351100272A5A /* yiming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yiming.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEC4B7F81B65351100272A5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -67,6 +136,9 @@
 		FEE462021B6FAE1100ACF9FC /* GmailLikeLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GmailLikeLoadingView.h; sourceTree = "<group>"; };
 		FEE462031B6FAE1100ACF9FC /* GmailLikeLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GmailLikeLoadingView.m; sourceTree = "<group>"; };
 		FEE462051B6FAE7F00ACF9FC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FEF03C691B76518D00111AF8 /* TypeListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeListController.h; sourceTree = "<group>"; };
+		FEF03C6A1B76518D00111AF8 /* TypeListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypeListController.m; sourceTree = "<group>"; };
+		FEF03C6C1B766FEA00111AF8 /* YMTypeListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YMTypeListCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +146,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				408FF6941B748EA60010E1A3 /* UIKit.framework in Frameworks */,
+				408FF6921B748EA10010E1A3 /* Foundation.framework in Frameworks */,
+				408FF68D1B748D970010E1A3 /* Security.framework in Frameworks */,
 				FEE462061B6FAE7F00ACF9FC /* QuartzCore.framework in Frameworks */,
 				FEE462011B6FAD9800ACF9FC /* CoreGraphics.framework in Frameworks */,
 				87F3DB6E3529F224E52DD096 /* libPods.a in Frameworks */,
@@ -93,6 +168,9 @@
 		3452F521667D7DDD17ACC401 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				408FF6931B748EA60010E1A3 /* UIKit.framework */,
+				408FF6911B748EA10010E1A3 /* Foundation.framework */,
+				408FF68C1B748D970010E1A3 /* Security.framework */,
 				FEE462051B6FAE7F00ACF9FC /* QuartzCore.framework */,
 				FEE462001B6FAD9800ACF9FC /* CoreGraphics.framework */,
 				B7257C8486F662482E0D6C42 /* libPods.a */,
@@ -109,12 +187,65 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		FE6A2A7E1B77221900A8EE42 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FE6A2A801B7722ED00A8EE42 /* YMTypeListCell.h */,
+				FE6A2A811B7722ED00A8EE42 /* YMTypeListCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		FE6A2AB81B7792DD00A8EE42 /* EGOTableViewPullRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				FE6A2AB91B7792DD00A8EE42 /* Classes */,
+				FE6A2AC21B7792DD00A8EE42 /* Resources */,
+			);
+			path = EGOTableViewPullRefresh;
+			sourceTree = "<group>";
+		};
+		FE6A2AB91B7792DD00A8EE42 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FE6A2ABA1B7792DD00A8EE42 /* EGORefreshTableHeaderView.h */,
+				FE6A2ABB1B7792DD00A8EE42 /* EGORefreshTableHeaderView.m */,
+				FE6A2ABC1B7792DD00A8EE42 /* LoadMoreTableFooterView.h */,
+				FE6A2ABD1B7792DD00A8EE42 /* LoadMoreTableFooterView.m */,
+				FE6A2ABE1B7792DD00A8EE42 /* MessageInterceptor.h */,
+				FE6A2ABF1B7792DD00A8EE42 /* MessageInterceptor.m */,
+				FE6A2AC01B7792DD00A8EE42 /* PullTableView.h */,
+				FE6A2AC11B7792DD00A8EE42 /* PullTableView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FE6A2AC21B7792DD00A8EE42 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FE6A2AC31B7792DD00A8EE42 /* blackArrow.png */,
+				FE6A2AC41B7792DD00A8EE42 /* blackArrow@2x.png */,
+				FE6A2AC51B7792DD00A8EE42 /* blueArrow.png */,
+				FE6A2AC61B7792DD00A8EE42 /* blueArrow@2x.png */,
+				FE6A2AC71B7792DD00A8EE42 /* grayArrow.png */,
+				FE6A2AC81B7792DD00A8EE42 /* grayArrow@2x.png */,
+				FE6A2AC91B7792DD00A8EE42 /* whiteArrow.png */,
+				FE6A2ACA1B7792DD00A8EE42 /* whiteArrow@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		FE95AD3A1B70DEBC005E0029 /* Entity */ = {
 			isa = PBXGroup;
 			children = (
 				FE95AD3B1B70DEE6005E0029 /* YMProfileEntity.h */,
 				FE95AD3C1B70E095005E0029 /* YMProfileEntity.m */,
 				FE95AD451B7110E4005E0029 /* YMCustomerEntity.h */,
+				FE95AD461B71121B005E0029 /* YMCustomerEntity.m */,
+				FE6A2AD81B77AA7E00A8EE42 /* YMChannelItem.h */,
+				FE6A2AD91B77AB4B00A8EE42 /* YMChannelItem.m */,
+				40B525BD1B78867700F24B4F /* YMCityEntity.h */,
+				40B525BE1B78867700F24B4F /* YMCityEntity.m */,
 			);
 			name = Entity;
 			sourceTree = "<group>";
@@ -126,6 +257,9 @@
 				FEE462031B6FAE1100ACF9FC /* GmailLikeLoadingView.m */,
 				FEB332961B6D18EA0072B767 /* YMCommon.m */,
 				FEE461D71B6FA9E900ACF9FC /* YMCommon.h */,
+				40B525B71B78785500F24B4F /* YMUITapGestureRecognizer.h */,
+				40B525B81B78785500F24B4F /* YMUITapGestureRecognizer.m */,
+				40B525C31B788D9900F24B4F /* PassValueDelegate.h */,
 			);
 			name = Tools;
 			sourceTree = "<group>";
@@ -133,6 +267,8 @@
 		FEC4B7EB1B65351100272A5A = {
 			isa = PBXGroup;
 			children = (
+				FE6A2AB81B7792DD00A8EE42 /* EGOTableViewPullRefresh */,
+				FE6A2A7E1B77221900A8EE42 /* Cells */,
 				FE95AD3A1B70DEBC005E0029 /* Entity */,
 				FEE461CC1B6FA03C00ACF9FC /* Delegate */,
 				FEB332951B6D18C50072B767 /* Tools */,
@@ -166,6 +302,17 @@
 				FEC4B7F71B65351100272A5A /* Supporting Files */,
 				FE95AD3E1B70F310005E0029 /* ProfileController.h */,
 				FE95AD3F1B70F310005E0029 /* ProfileController.m */,
+				FEF03C691B76518D00111AF8 /* TypeListController.h */,
+				FEF03C6A1B76518D00111AF8 /* TypeListController.m */,
+				FEF03C6C1B766FEA00111AF8 /* YMTypeListCell.xib */,
+				FE6A2A831B77331700A8EE42 /* EntityListController.h */,
+				FE6A2A841B77331700A8EE42 /* EntityListController.m */,
+				40B525B41B78712A00F24B4F /* ProjectContrller.h */,
+				40B525B51B78712A00F24B4F /* ProjectContrller.m */,
+				40B525BA1B787B9200F24B4F /* CityController.h */,
+				40B525BB1B787B9200F24B4F /* CityController.m */,
+				40B525C41B78950F00F24B4F /* ContactController.h */,
+				40B525C51B78950F00F24B4F /* ContactController.m */,
 			);
 			path = yiming;
 			sourceTree = "<group>";
@@ -203,6 +350,10 @@
 				FEE461D61B6FA8A300ACF9FC /* YMProfileDeleage.h */,
 				FE95AD421B70FEE4005E0029 /* YMLoginDeleage.h */,
 				FE95AD431B71000E005E0029 /* YMLoginDeleage.m */,
+				FE6A2ADB1B77ABAE00A8EE42 /* YMItemDeleage.h */,
+				FE6A2ADC1B77ABC500A8EE42 /* YMItemDeleage.m */,
+				40B525C01B78870900F24B4F /* YMCityDeleage.h */,
+				40B525C11B78870900F24B4F /* YMCityDeleage.m */,
 			);
 			name = Delegate;
 			sourceTree = "<group>";
@@ -289,9 +440,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE6A2AD31B7792DD00A8EE42 /* grayArrow.png in Resources */,
+				FE6A2AD21B7792DD00A8EE42 /* blueArrow@2x.png in Resources */,
 				FEC4B8031B65351100272A5A /* Main.storyboard in Resources */,
+				FE6A2AD51B7792DD00A8EE42 /* whiteArrow.png in Resources */,
+				FE6A2AD41B7792DD00A8EE42 /* grayArrow@2x.png in Resources */,
 				FEC4B8081B65351100272A5A /* LaunchScreen.xib in Resources */,
+				FE6A2AD01B7792DD00A8EE42 /* blackArrow@2x.png in Resources */,
+				FE6A2ACF1B7792DD00A8EE42 /* blackArrow.png in Resources */,
+				FE6A2AD11B7792DD00A8EE42 /* blueArrow.png in Resources */,
 				FEC4B8051B65351100272A5A /* Images.xcassets in Resources */,
+				FE6A2AD61B7792DD00A8EE42 /* whiteArrow@2x.png in Resources */,
+				FEF03C6D1B766FEA00111AF8 /* YMTypeListCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,15 +502,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE6A2ADA1B77AB4B00A8EE42 /* YMChannelItem.m in Sources */,
 				FEB332971B6D18EA0072B767 /* YMCommon.m in Sources */,
+				40B525BF1B78867700F24B4F /* YMCityEntity.m in Sources */,
 				FE95AD441B71000E005E0029 /* YMLoginDeleage.m in Sources */,
 				FEE462041B6FAE1100ACF9FC /* GmailLikeLoadingView.m in Sources */,
+				FE6A2ACD1B7792DD00A8EE42 /* MessageInterceptor.m in Sources */,
 				FEC4B8001B65351100272A5A /* ViewController.m in Sources */,
+				FEF03C6B1B76518D00111AF8 /* TypeListController.m in Sources */,
 				FE95AD401B70F310005E0029 /* ProfileController.m in Sources */,
 				FEC4B7FD1B65351100272A5A /* AppDelegate.m in Sources */,
+				FE95AD471B71121B005E0029 /* YMCustomerEntity.m in Sources */,
+				40B525C61B78950F00F24B4F /* ContactController.m in Sources */,
 				FE95AD3D1B70E095005E0029 /* YMProfileEntity.m in Sources */,
 				FEE461D41B6FA66300ACF9FC /* YMProfileDeleage.m in Sources */,
 				FEC4B7FA1B65351100272A5A /* main.m in Sources */,
+				FE6A2A821B7722ED00A8EE42 /* YMTypeListCell.m in Sources */,
+				FE6A2ADD1B77ABC500A8EE42 /* YMItemDeleage.m in Sources */,
+				40B525C21B78870900F24B4F /* YMCityDeleage.m in Sources */,
+				FE6A2ACB1B7792DD00A8EE42 /* EGORefreshTableHeaderView.m in Sources */,
+				40B525BC1B787B9200F24B4F /* CityController.m in Sources */,
+				FE6A2ACC1B7792DD00A8EE42 /* LoadMoreTableFooterView.m in Sources */,
+				40B525B91B78785500F24B4F /* YMUITapGestureRecognizer.m in Sources */,
+				40B525B61B78712A00F24B4F /* ProjectContrller.m in Sources */,
+				FE6A2ACE1B7792DD00A8EE42 /* PullTableView.m in Sources */,
+				FE6A2A851B77331700A8EE42 /* EntityListController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,9 +655,12 @@
 			baseConfigurationReference = 4CD4376F4C0743D65DA3709A /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = yiming/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "yiming/yiming-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -490,9 +669,11 @@
 			baseConfigurationReference = 39B2BDBE5EE1A065F089275A /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = yiming/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "yiming/yiming-Bridging-Header.h";
 			};
 			name = Release;
 		};

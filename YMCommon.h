@@ -14,5 +14,5 @@
 
 +(NSString*) getServer;
 +(NSData*) getDataFromString:(NSString*) str;
-
++(UIColor *) hexStringToColor: (NSString *) stringToConvert;
 @end

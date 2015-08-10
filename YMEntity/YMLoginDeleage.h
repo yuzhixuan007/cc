@@ -8,14 +8,14 @@
 
 
 #import <UIKit/UIKit.h>
-
+#import "YMCustomerEntity.h"
 
 @interface YMLoginDeleage : NSObject
 
-@property bool result;
+@property YMCustomerEntity* result;
 
 -(void)login:(NSString *) userName
 pwd:(NSString *) pwd
-    compete :(void (^)(BOOL))compete;
+    compete :(void (^)(YMCustomerEntity*))compete;
 
 @end

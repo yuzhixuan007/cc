@@ -9,12 +9,12 @@
 #import <UIKit/UIKit.h>
 
 
-@interface YMProfileEntity : NSObject
+@interface YMCustomerEntity : NSObject
 
 
 @property int ID;
 
-@property (NSString*) TrueName;
+@property NSString* TrueName;
 
 @property NSString* Job;
 
@@ -25,6 +25,8 @@
 @property NSString* GradeName;
 
 @property NSString* XmppName;
+
+@property NSString* Img;
 
 
 @end

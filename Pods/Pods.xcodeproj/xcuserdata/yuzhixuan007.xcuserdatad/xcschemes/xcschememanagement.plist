@@ -8,16 +8,32 @@
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>Diskcached.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
 		</dict>
 		<key>GDataXML-HTML.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>ImageLoader.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
 		</dict>
 		<key>Pods.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>3</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -32,7 +48,32 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>183E1C9093E950345100675FAED4DC3D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>58E8067E5B439668F8335FC02B8A3B7A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>7AA1B60486A04A32F3EC3B6913CF27B2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B56870E3E58D14AFA4C8FBF596B049EC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C7D444DC3B7EE6B9CC082EF7C13ED7A3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D32003D0F15DD7593B45740BA7EE2059</key>
 		<dict>
 			<key>primary</key>
 			<true/>

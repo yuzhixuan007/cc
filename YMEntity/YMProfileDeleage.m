@@ -28,10 +28,9 @@
 
 
 
--(void)getData :(void (^)(NSMutableArray *arr))compete
+-(void)getData : (int)ID compete:(void (^)(NSMutableArray *arr))compete
 {
     result = [[NSMutableArray alloc]init];
-    
     
     
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
@@ -40,7 +39,10 @@
     
     NSDictionary *dict =@{@"format":@"xml"};
     
-    NSString* requestUrl = [[YMCommon getServer] stringByAppendingString: @"client/?c=channel&a=channellist" ];
+    NSString* requestUrl = [NSString stringWithFormat:@"%@client/?c=channel&a=channellist&fid=%d",[YMCommon getServer],ID];
+    
+    
+   // NSString* requestUrl = [[YMCommon getServer] stringByAppendingString: @"client/?c=channel&a=channellist&fid=%d",31];
     
     [manager GET: requestUrl parameters:dict success:^(AFHTTPRequestOperation *operation,id responseObject){
         
@@ -67,11 +69,6 @@
 }
 
 
--(void)parserDidStartDocument:(NSXMLParser *)parser{
-    NSLog(@"解析开始！");
-}
-
-//解析起始标记
 
 - (void)parser:(NSXMLParser *)parser didStartElement:(NSString *)elementName namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qualifiedName
     attributes:(NSDictionary *)attributeDict
@@ -101,12 +98,17 @@
         entity.CateName = str;
     }
     if ([currentElement isEqualToString:@"image"]) {
+        entity.Image = str;
+    }
+    if ([currentElement isEqualToString:@"expand"]) {
+        entity.Expand = str;
+    }
+    if ([currentElement isEqualToString:@"table"]) {
         entity.Table = str;
     }
     
 }
 
-//解析结束标记
 
 - (void)parser:(NSXMLParser *)parser didEndElement:(NSString *)elementName
   namespaceURI:(NSString *)namespaceURI
@@ -115,14 +117,6 @@
     {
         [result addObject:entity];
     }
-}
-
-//文档结束时触发
-
--(void) parserDidEndDocument:(NSXMLParser *)parser{
-    
-    NSLog(@"解析结束！");
-    
 }
 
 @end

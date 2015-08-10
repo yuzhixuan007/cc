@@ -9,15 +9,15 @@
 #import <UIKit/UIKit.h>
 
 
-@interface YMProfileEntity : NSObject
+@interface YMProfileEntity : NSObject<NSCoding>
 
 @property  int Id;
 @property int ModelId;
 @property   int ParentId;
 @property   NSString* CateName;
 @property    NSString* Image;
-@property   int Table;
-
+@property   NSString* Table;
+@property NSString* Expand;
 
 
 @end
